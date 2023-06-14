@@ -1,0 +1,40 @@
+
+# The Action Framework Guide
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Understanding the Action Framework](#understanding-the-action-framework)
+    - [Brainstorm + Action Word](#brainstorm--action-word)
+    - [Context + Prioritize](#context--prioritize)
+    - [Evaluate + Refine](#evaluate--refine)
+- [Implementing the Action Framework in Prompts](#implementing-the-action-framework-in-prompts)
+    - [For General Users](#for-general-users)
+    - [For Programmers](#for-programmers)
+- [Tips and Hacks](#tips-and-hacks)
+- [Practical Applications and Examples](#practical-applications-and-examples)
+- [Conclusion](#conclusion)
+- [Glossary](#glossary)
+
+## Introduction
+The Action Framework is a versatile tool for guiding and refining interactions with language models. Whether you are a beginner or an experienced programmer, this guide provides a comprehensive, step-by-step approach to generating effective prompts.
+
+## Understanding the Action Framework
+
+### Brainstorm + Action Word
+The first step is to brainstorm ideas and select an action word that represents the main objective of your prompt. This action word will capture the essence of what you want the model to do.
+
+```python
+# Action Word
+action_word = input("Enter the action word: ")
+# Context
+purpose = input("Enter the purpose of your prompt: ")
+audience = input("Enter the target audience: ")
+special_details = input("Enter any special details or circumstances: ")
+
+# Prioritize
+tone = input("Enter the desired tone of the response: ")
+style = input("Enter the preferred style: ")
+specific_elements = input("Enter specific elements to include or exclude: ")
+# Evaluate and Refine
+response = input("Enter the generated response: ")
+# Evaluate the response and make necessary refinements to the prompt
