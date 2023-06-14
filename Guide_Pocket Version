@@ -1,0 +1,62 @@
+# The Ultimate Action Framework Guide
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Understanding the Action Framework](#understanding-the-action-framework)
+3. [Action Framework in Practice](#action-framework-in-practice)
+    - [Real-world Examples](#real-world-examples)
+4. [Advanced Prompt Engineering](#advanced-prompt-engineering)
+    - [API Integration](#api-integration)
+    - [Hacks and Tips](#hacks-and-tips)
+    - [Python Scripts](#python-scripts)
+5. [Further Learning and Resources](#further-learning-and-resources)
+    - [Online Courses](#online-courses)
+    - [Reputable Sources](#reputable-sources)
+6. [Conclusion](#conclusion)
+7. [Acknowledgments](#acknowledgments)
+8. [References](#references)
+
+## Introduction <a name="introduction"></a>
+
+Welcome to a journey that will transform the way you interact with language models! In an era where artificial intelligence is shaping the future, responsible AI practices, ethical considerations, and effective communication strategies are paramount. The Action Framework Guide is an expertly crafted compass that guides you through the dynamic world of prompt engineering with language models such as ChatGPT, Claude, and beyond. As a Speech-Language Pathologist with an extensive background in language and communication, my expertise lends a unique perspective to the power of language models in various contexts, from clinical interventions to research-based language applications.
+
+## Understanding the Action Framework <a name="understanding-the-action-framework"></a>
+
+The Action Framework is your structured guide to crafting effective prompts for language models. Here are the steps:
+
+1. **Brainstorm** - Generate a plethora of ideas and options for what you want the language model to accomplish.
+2. **Action Word** - Identify a verb that captures the essence of the desired action.
+3. **Context** - Provide background information, constraints, and conditions.
+4. **Prioritize** - Decide which elements should be emphasized in the model’s response.
+5. **Evaluate & Refine** - Critically assess the output and refine the prompt as needed.
+
+## Action Framework in Practice <a name="action-framework-in-practice"></a>
+
+### Real-world Examples <a name="real-world-examples"></a>
+
+#### Example 1: Recipe Generation
+
+- **Brainstorm + Action Word**: You want the model to generate a vegan recipe. Your action word could be "create."
+- **Context + Prioritize**: You’re looking for a vegan recipe that serves four and is quick to prepare. Priority might be on healthiness and ease of preparation.
+- **Evaluate + Refine**: If the initial recipe provided does not meet the healthiness criteria, you can refine the prompt by specifying a maximum calorie count or requesting superfoods as ingredients.
+
+## Advanced Prompt Engineering <a name="advanced-prompt-engineering"></a>
+
+### API Integration <a name="api-integration"></a>
+
+Integrate ChatGPT and Claude into your applications using APIs.
+
+```python
+import requests
+
+api_url = "https://api.openai.com/v1/engines/davinci/completions"
+api_key = "your_api_key"
+
+headers = {"Authorization": f"Bearer {api_key}"}
+data = {
+    "prompt": "Write a short story about a talking cat.",
+    "max_tokens": 150
+}
+
+response = requests.post(api_url, headers=headers, json=data)
+print(response.json())
