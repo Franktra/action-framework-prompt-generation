@@ -25,7 +25,7 @@ Welcome to a journey that will transform the way you interact with language mode
 The Action Framework is your structured guide to crafting effective prompts for language models. Here are the steps:
 
 1. **Brainstorm** - Generate a plethora of ideas and options for what you want the language model to accomplish.
-2. **Action Word** - Identify a verb that captures the essence of the desired action.
+2. **Action Word** - Identify a word that captures the essence of the desired action.
 3. **Context** - Provide background information, constraints, and conditions.
 4. **Prioritize** - Decide which elements should be emphasized in the model’s response.
 5. **Evaluate & Refine** - Critically assess the output and refine the prompt as needed.
